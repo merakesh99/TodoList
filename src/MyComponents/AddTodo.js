@@ -9,7 +9,6 @@ export const AddTodo = ({addTodo}) => {
             }
             else{
                 addTodo(title, desc);
-                //After add a todo Title and Desc are blank
                 setTitle("");  
                 setDesc("");
                 }
