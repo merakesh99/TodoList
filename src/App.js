@@ -63,7 +63,7 @@ function App() {
   return (
     <>
       <Router>
-        <Header title="TODO" Searchbar={false} />
+        <Header title="TO-DO-LIST" Searchbar={false} />
 
         <Switch>
           <Route exact path="/TodoList" render={() => {

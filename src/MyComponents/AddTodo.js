@@ -46,7 +46,7 @@ export const AddTodo = ({ addTodo }) => {
                         placeholder='Enter Description'
                     />
                 </div>
-                <button type="submit" class="btn btn-outline-success">
+                <button type="submit" className="btn btn-outline-success">
                     Add Task
                 </button>
             </form>

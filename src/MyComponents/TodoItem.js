@@ -8,10 +8,10 @@ export const TodoItem = ({ todo, onDelete, onMark }) => {
 
             <div className=''>
                 <div className="">
-                    <ul class="list-group my-3 ">
-                        <li class="list-group-item">
+                    <ul className="list-group my-3 ">
+                        <li className="list-group-item">
                             <div className="row">
-                                {todo.mark == "Pending" ?
+                                {todo.mark === "Pending" ?
 
                                     <div className="col-xl-2"><h4><FaRegCheckCircle onClick={() => { onMark(todo) }} style={{color: "red"}} /></h4></div>
 

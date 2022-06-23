@@ -11,7 +11,7 @@ export const Todos = (props) => {
             <h3 className="my-3">Todo List</h3>
             {props.todos.length === 0 ?
                 <>
-                    <h5 class="card-title text-center">No todos to display</h5>
+                    <h5 className="card-title text-center">No todos to display</h5>
                 </>
                 :
                 props.todos.map((todo) => {
