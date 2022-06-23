@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
     // let footerStyle={
@@ -12,7 +13,7 @@ export const Footer = () => {
         <footer className="bg-dark text-light py-2">
             <p className="text-center">
 
-           Copyright &copy; RakeshProject.com
+           Copyright &copy; 2022 <Link to={{ pathname: "https://rakeshsadhukhan.in" }} target="_blank" >Rakesh Sadhukhan</Link>
             </p>
         </footer>
     )
